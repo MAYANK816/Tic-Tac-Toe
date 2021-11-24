@@ -21,7 +21,7 @@ h1 {
   margin: 2rem;
 }
 
-.board {
+.main_board {
   border: 1rem solid #ffffff;
   background: #ffffff;
   width: 500px;
@@ -47,7 +47,7 @@ h1 {
   color: green;
 }
 
-.info-wrapper {
+.info-data-wrapper {
   display: flex;
   justify-content: space-between;
 }
@@ -63,7 +63,7 @@ li {
   list-style: none;
 }
 
-.info-wrapper button {
+.info-data-wrapper button {
   background: #272727;
   color: white;
   border: none;

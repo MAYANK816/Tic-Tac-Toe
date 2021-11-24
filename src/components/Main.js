@@ -26,7 +26,7 @@ const Game = () => {
     <>
       <h1 className="header">Tic Tac Toe</h1>
       <Board squares={history[step]} onClick={handleClick} />
-      <div className="info-wrapper">
+      <div className="info-data-wrapper">
         <div>
 
         </div>
