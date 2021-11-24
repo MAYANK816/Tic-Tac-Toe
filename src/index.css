@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: black;
+  background: url("https://i.pinimg.com/originals/cb/c7/b1/cbc7b1c08738ceddce3780dc5dd7ba6c.jpg");
   color: white;
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -22,8 +22,8 @@ h1 {
 }
 
 .board {
-  border: 1rem solid #ff652f;
-  background: #ff652f;
+  border: 1rem solid #ffffff;
+  background: #ffffff;
   width: 500px;
   height: 500px;
   display: grid;
@@ -53,6 +53,7 @@ h1 {
 }
 .header {
   text-align: center;
+  color: #333;
 }
 h3 {
   padding: 1rem;

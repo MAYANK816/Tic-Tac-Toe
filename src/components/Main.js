@@ -30,7 +30,11 @@ const Game = () => {
         <div>
 
         </div>
-        <h3>{winner ? alert("Winner", winner) : "Next Player: " + xO}</h3>
+        <h3>{winner ? "Winner" : "Next Player: " + xO}</h3>
+        {
+
+          winner && (xO === "O" ? alert("Winner X") : alert("Winner O"))
+        }
       </div>
     </>
   );
